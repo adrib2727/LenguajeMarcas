@@ -10,7 +10,21 @@
         }
         .tabla1{
             background-color: skyblue;
-            border 3px 
+            border: 1px solid black;
+        }
+        .div2{
+            background-color: rosybrown;
+            border: 1px solid black;
+        }
+        .div3{
+            background-color: coral;
+            border: 1px solid black;
+        }
+        .cabecera1{
+            position: absolute;
+            background-color: white;
+            border: 1px solid black;
+            top:35px;
         }
     </style>
 </head>
@@ -19,11 +33,14 @@
         <h1>HOJA DE INSCRIPCIÓN</h1>
         <h1>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
     </div>
+    <div class="cabecera1">
+        Datos personales
+    </div>
     <table class="tabla1">
         <tr>
-            <td>Nombre</td>
-            <td>Apellido</td>
-            <td>DNI</td>
+            <td><br>Nombre</td>
+            <td><br>Apellido</td>
+            <td><br>DNI</td>
         </tr>
         <tr>
             <td>
@@ -47,10 +64,17 @@
                 <input type="text">
             </td>
             <td>
-                <input type="text">
+                <select name="OS">
+                    <option value="0">-Selecciona-</option>
+                    <option value="1">Región de Murcia</option>
+                    <option value="2">Comunidad Valenciana</option>
+                    <option value="3">Cataluña</option>
+                    <option value="4">Castilla la Mancha</option>
+                    <option value="5">Andalucia</option>
+                    <option value="6">Castilla y León</option>
             </td>
             <td>
-                <input type="text">
+                <input type="date">
             </td>
         </tr>
         <tr>
@@ -65,7 +89,48 @@
                 <input type="text">
             </td>
         </tr>
-
     </table>
+    <br>
+    <div class="div2">
+        <ul>
+            <input type="radio" id="dir"/><label for="dir">Directorio</label>
+            <ul>
+                <input type="radio"/>Bachillerato LOGSE. Modalidad.
+                <input type="text">
+            </ul>
+            <ul>
+                <input type="radio"/>Bachillerato experimental.
+            </ul>
+            <ul>
+                <input type="radio"/>COU. Opción.
+                <input type="text"/>
+            </ul>
+            <ul>
+                <input type="radio"/>FP2
+            </ul>
+            <ul>
+                <input type="radio"/>Otros (Especifique).
+                <input type="text">
+            </ul>
+        </ul>
+        <ul>
+            <input type="radio"/>Prueba libre
+        </ul>
+    </div>
+    <br>
+    <div class="div3">
+        <ul>
+            <input type="checkbox"/>Fotocopia DNI
+            <input type="checkbox"/>Certificado académico
+        </ul>
+        <ul>
+            <input type="checkbox"/>Otros documentos (Especifique)
+            <input type="text"/>
+        </ul>
+    </div>
+    <br>
+    <div>
+        <button>Enviar Solicitud</button>
+    </div>
 </body>
 </html>
