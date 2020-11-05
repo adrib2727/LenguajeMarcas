@@ -4,6 +4,19 @@ body{
 .documento{
     border: 2px solid black;
 }
+.android img{
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+.pa1{
+    float: left;
+}
+.pa1 p{
+    margin-left: 1%;
+}
 #parrafo1::first-letter{
     font-size: x-large;
 }
@@ -18,4 +31,44 @@ body{
 }
 #parrafo2::first-letter{
     font-size: x-large;
+}
+#gm{
+    font-weight: bold;
+    font-style: italic;
+}
+#tt{
+    font-weight: bold;
+    font-style: italic;
+}
+#sp{
+    font-weight: bold;
+    font-style: italic;
+}
+#ki{
+    font-weight: bold;
+    font-style: italic;
+}
+#sk{
+    font-weight: bold;
+    font-style: italic;
+}
+#an{
+    font-weight: bold;
+    font-style: italic;
+}
+#flt{
+    font-weight: bold;
+    font-style: italic;
+}
+#pics{
+    font-weight: bold;
+    font-style: italic;
+}
+#tdt{
+    font-weight: bold;
+    font-style: italic;
+}
+#widget{
+    font-weight: bold;
+    font-style: italic;
 }
