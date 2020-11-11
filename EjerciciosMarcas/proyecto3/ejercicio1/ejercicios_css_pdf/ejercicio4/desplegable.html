@@ -7,40 +7,43 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
         }
         h1{
             margin-left: 2%;
         }
-        #menu1 ul li{
+        
+        .menu #ul1 li ul li{
+            background-color: brown;
+            position: relative;
+        }
+        .ul1 li{
             float: left;
-            margin: 10px;
+            margin: 15px;
+            border: 1px solid black;
+            box-shadow: black 2px 2px 2px 0px;
         }
-        #menu1 ul li a{
-            position: relative;
-        }
-        #menu1 ul li ul{
-            position: absolute;
-        }
-        #menu1 ul li ul li{
-            position: relative;
-        }
-        #menu1 ul li ul li a{
-            display: block;
+        .ul1 li ul li{
+            
         }
     </style>
 </head>
 <body>
-    <h1>MENÚ DEPLEGABLE</h1>
-    <div id="menu1">
-        <ul type="none">
-            <li>Inicio</li>
-            <li><a href="ul1">ASIR</a>
-                <ul id="ul1">
+    <div class="menu">
+        <h1>MENÚ DESPLEGABLE</h1>
+        <ul type="none" class="ul1">
+            <li>
+                Inicio
+                <ul id="">
                     <li>Bases de datos</li>
                     <li>Sistemas Informáticos</li>
                     <li>Entornos de Desarrollo</li>
                 </ul>
             </li>
+            <li>ASIR</li>
+            <li>DAM</li>
+            <li>DAW</li>
+            <li>SMR</li>
         </ul>
     </div>
     
