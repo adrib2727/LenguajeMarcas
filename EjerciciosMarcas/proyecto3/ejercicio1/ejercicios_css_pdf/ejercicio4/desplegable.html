@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            margin-left: 2%;
+        }
+        #menu1 ul li{
+            float: left;
+            margin: 10px;
+        }
+        #menu1 ul li a{
+            position: relative;
+        }
+        #menu1 ul li ul{
+            position: absolute;
+        }
+        #menu1 ul li ul li{
+            position: relative;
+        }
+        #menu1 ul li ul li a{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>MENÚ DEPLEGABLE</h1>
+    <div id="menu1">
+        <ul type="none">
+            <li>Inicio</li>
+            <li><a href="ul1">ASIR</a>
+                <ul id="ul1">
+                    <li>Bases de datos</li>
+                    <li>Sistemas Informáticos</li>
+                    <li>Entornos de Desarrollo</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
