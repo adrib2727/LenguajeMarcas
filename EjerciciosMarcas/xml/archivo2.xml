@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Taller codigo="135">
+    <mecanico>
+        <nombre>Josue Vergara</nombre>
+    </mecanico>
+    <coche_reparado>
+        <matricula>23847DASS</matricula>
+        <marca>Lamborghini</marca>
+        <modelo>Aventador</modelo>
+    </coche_reparado>
+    <propietario>
+        <nombre>Pepe</nombre>
+        <apellidos>Rodríguez</apellidos>
+    </propietario>
+    <trabajo>
+        <fecha_inicio>Fecha</fecha_inicio>
+        <fecha_inicio>30/11/20</fecha_inicio>
+        <fecha_fin>02/12/20</fecha_fin>
+        <valor>Valor en €</valor>
+        <informe>Cambio de neumáticos </informe>
+    </trabajo>
+</Taller>
