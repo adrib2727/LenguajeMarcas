@@ -12,19 +12,29 @@
         h1{
             margin-left: 2%;
         }
-        
-        .menu #ul1 li ul li{
-            background-color: brown;
-            position: relative;
-        }
         .ul1 li{
             float: left;
             margin: 15px;
             border: 1px solid black;
             box-shadow: black 2px 2px 2px 0px;
         }
-        .ul1 li ul li{
-            
+        .menu ul li:hover{
+            float: left;
+        }
+        .menu ul li a:hover{
+            position: relative;
+        }
+        .menu ul li ul:hover{
+            position: absolute;
+        }
+        .menu ul li ul li{
+            position: relative;
+        }
+        .menu ul li ul li a{
+            display: block;
+        }
+        .menu ul li ul{
+            display: none;
         }
     </style>
 </head>
@@ -32,18 +42,51 @@
     <div class="menu">
         <h1>MENÚ DESPLEGABLE</h1>
         <ul type="none" class="ul1">
-            <li>
-                Inicio
-                <ul id="">
-                    <li>Bases de datos</li>
-                    <li>Sistemas Informáticos</li>
-                    <li>Entornos de Desarrollo</li>
-                </ul>
+            <li>Inicio
+                <a href="">
+                    <ul type="none">
+                        <li><a href="#">Bases de Datos</a></li>
+                        <li><a href="#">Sistemas Informáticos</a></li>
+                        <li><a href="#">Entornos de Desarrollo</a></li>
+                    </ul>
+                </a>
             </li>
-            <li>ASIR</li>
-            <li>DAM</li>
-            <li>DAW</li>
-            <li>SMR</li>
+            <li>ASIR
+                <a href="">
+                    <ul type="none">
+                        <li><a href="#">Bases de Datos</a></li>
+                        <li><a href="#">Sistemas Informáticos</a></li>
+                        <li><a href="#">Entornos de Desarrollo</a></li>
+                    </ul>
+                </a>
+            </li>
+            <li>DAM
+                <a href="">
+                    <ul type="none">
+                        <li><a href="#">Bases de Datos</a></li>
+                        <li><a href="#">Sistemas Informáticos</a></li>
+                        <li><a href="#">Entornos de Desarrollo</a></li>
+                    </ul>
+                </a>
+            </li>
+            <li>DAW
+                <a href="">
+                    <ul type="none">
+                        <li><a href="#">Bases de Datos</a></li>
+                        <li><a href="#">Sistemas Informáticos</a></li>
+                        <li><a href="#">Entornos de Desarrollo</a></li>
+                    </ul>
+                </a>
+            </li>
+            <li>SMR
+                <a href="">
+                    <ul type="none">
+                        <li><a href="#">Bases de Datos</a></li>
+                        <li><a href="#">Sistemas Informáticos</a></li>
+                        <li><a href="#">Entornos de Desarrollo</a></li>
+                    </ul>
+                </a>
+            </li>
         </ul>
     </div>
     
