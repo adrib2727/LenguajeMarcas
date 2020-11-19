@@ -1,4 +1,5 @@
-<?xml version="1.0"?>
+<!--<?xml version="1.0"?>
+<!DOCTYPE archivo2 SYSTEM "archivo2.dtd">
 <Taller codigo="135">
     <mecanico>
         <nombre>Josue Vergara</nombre>
@@ -19,4 +20,4 @@
         <valor>Valor en €</valor>
         <informe>Cambio de neumáticos </informe>
     </trabajo>
-</Taller>
+</Taller>-->
