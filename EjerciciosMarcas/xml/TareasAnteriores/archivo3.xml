@@ -1,6 +1,6 @@
-<!--<?xml version="1.0"?>
-<!DOCTYPE archivo3 SYSTEM "archivo3.dtd">
-<ticket id_ticket="01">
+<?xml version="1.0"?>
+<!DOCTYPE Ticket SYSTEM "archivo3.dtd">
+<Ticket id_ticket="A01">
     <fecha>Miercoles 23 de Septiembre</fecha>
     <hora>17:30</hora>
     <precio moneda="euro">
@@ -27,4 +27,4 @@
         <porc_IVA>11.94</porc_IVA>
         <pvp>68.81</pvp>
     </datos_compra>
-</ticket>-->
+</Ticket>
